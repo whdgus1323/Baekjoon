@@ -1,14 +1,11 @@
-<<<<<<< HEAD
 INDEX VERSION 1.134+C:\Users\whdgu\OneDrive\Documents\Baekjoon\.metadata\.plugins\org.eclipse.jdt.core
 474341309.index
 367259103.index
-724152414.index
 3857931116.index
 1565139967.index
 2957644705.index
 2824573277.index
 3305709442.index
-3622907626.index
 312366991.index
 692273691.index
 1493620531.index
@@ -19,24 +16,3 @@ INDEX VERSION 1.134+C:\Users\whdgu\OneDrive\Documents\Baekjoon\.metadata\.plugin
 1865797976.index
 1622145054.index
 1704552217.index
-=======
-INDEX VERSION 1.134+C:\Users\whdgu\OneDrive\Documents\GitHub\Baekjoon\.metadata\.plugins\org.eclipse.jdt.core
-2350726577.index
-3767606652.index
-2370775320.index
-2030866195.index
-3997865294.index
-218492663.index
-2175567924.index
-2000057541.index
-1730525633.index
-2543201770.index
-1470158870.index
-4060495754.index
-832913715.index
-1383407181.index
-402395551.index
-3112204234.index
-2101378015.index
-2483863373.index
->>>>>>> notebook
