@@ -1,0 +1,25 @@
+From b4ed24e77056a634372bfe25363bbb5d9de1a7c8 Mon Sep 17 00:00:00 2001
+From: whdgus1323 <whdgus1323@gmail.com>
+Date: Thu, 26 Oct 2023 00:07:30 +0900
+Subject: [PATCH] no message
+
+---
+ .gitignore | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/.gitignore b/.gitignore
+index eef4778..ff8fe63 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -2,6 +2,8 @@
+ # Edit at https://www.toptal.com/developers/gitignore?templates=eclipse
+ 
+ ### Eclipse ###
++/.metadata/
++.metadata/
+ .metadata
+ bin/
+ tmp/
+-- 
+2.42.0.windows.2
+
