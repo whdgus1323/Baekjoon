@@ -11,11 +11,13 @@ public class Main {
 		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		
-		String id = br.readLine();
-		id += "??!";
+		int x = Integer.parseInt(st.nextToken());
+		int y = Integer.parseInt(st.nextToken());
 		
-		bw.write(id);
+		
+		bw.write(String.valueOf(x * y));
 		
 		br.close();
 		bw.flush();
