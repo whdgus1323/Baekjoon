@@ -1,9 +1,6 @@
 INDEX VERSION 1.134+C:\Users\whdgu\OneDrive\Documents\GitHub\Baekjoon\.metadata\.plugins\org.eclipse.jdt.core
-832913715.index
-1730525633.index
 4060495754.index
 1470158870.index
-2101378015.index
 1865797976.index
 3112204234.index
 2370775320.index
