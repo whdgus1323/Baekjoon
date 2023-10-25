@@ -1216,6 +1216,3 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/조건문_Bae
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2023-10-25 22:03:29.103
 !MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, 지정된 파일을 찾을 수 없습니다
-
-!ENTRY org.eclipse.core.resources 2 10035 2023-10-25 22:13:23.218
-!MESSAGE The workspace will exit with unsaved changes in this session.
