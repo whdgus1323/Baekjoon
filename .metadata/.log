@@ -1380,22 +1380,14 @@ Caused by: java.lang.NullPointerException: Cannot invoke "org.osgi.framework.Bun
 	at org.eclipse.oomph.p2.core.P2Util.getCurrentProvisioningAgent(P2Util.java:114)
 	at org.eclipse.oomph.setup.internal.core.util.SetupCoreUtil.<clinit>(SetupCoreUtil.java:157)
 	... 6 more
-<<<<<<< HEAD
 !SESSION 2023-10-25 22:31:59.504 -----------------------------------------------
 eclipse.buildId=4.29.0.20230907-1200
 java.version=21.0.1
 java.vendor=Oracle Corporation
-=======
-!SESSION 2023-10-25 22:27:43.842 -----------------------------------------------
-eclipse.buildId=4.29.0.20230907-1200
-java.version=17.0.8.1
-java.vendor=Eclipse Adoptium
->>>>>>> 5ae614c5ce97666f0067efd28a03d33f82e1613d
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
-<<<<<<< HEAD
 !ENTRY ch.qos.logback.classic 1 0 2023-10-25 22:32:02.777
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
