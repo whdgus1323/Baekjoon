@@ -1,7 +1,11 @@
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=5ae614c5ce97666f0067efd28a03d33f82e1613d
+>>>>>>>=a30108ab9337fe8002036fd3142beac9d6a33cf0
 eclipse.preferences.version=1
+<<<<<<< HEAD
 platformState=1698244911165
+=======
+platformState=1698238967668
+>>>>>>> f4f0f95b8a0c60a7aaf606fc5a97c539b7786022
 quickStart=false
 tipsAndTricks=true
