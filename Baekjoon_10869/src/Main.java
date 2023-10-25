@@ -22,6 +22,7 @@ public class Main {
 		bw.write(String.valueOf(x * y) + "\n");
 		bw.write(String.valueOf(x / y) + "\n");
 		bw.write(String.valueOf(x % y) + "\n");
+		bw.write(String.valueOf(x % y) + "\n");
 		
 		br.close();
 		bw.flush();
