@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
 public class Main {
-
+	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -16,22 +16,27 @@ public class Main {
 		int N = Integer.parseInt(st.nextToken());
 		int M = Integer.parseInt(st.nextToken());
 		
-		int[] arr = new int[N];
+		int[] bucket = new int[N];
 		
-		int I, J, K;
+		for (int i = 0; i < bucket.length; i++)
+			bucket[i] = i + 1;
+		
+		int tmp;
+		
+		int x, y;
 		
 		for (int i = 0; i < M; i++) {
 			st = new StringTokenizer(br.readLine(), " ");
-			I = Integer.parseInt(st.nextToken());
-			J = Integer.parseInt(st.nextToken());
-			K = Integer.parseInt(st.nextToken());
+			x = Integer.parseInt(st.nextToken());
+			y = Integer.parseInt(st.nextToken());
 			
-			for (int l = I - 1; l < J; l++) 
-				arr[l] = K;
+			tmp = bucket[x - 1];
+			bucket[x - 1] = bucket[y - 1];
+			bucket[y - 1] = tmp;
 		}
 		
-		for (int s = 0; s < arr.length; s++)
-			bw.write(String.valueOf(arr[s]) + " ");
+		for (int i = 0; i < bucket.length; i++) 
+			bw.write(String.valueOf(bucket[i]) + " ");
 		
 		br.close();
 		
